@@ -7,8 +7,8 @@ import {
   SunIcon,
 } from "@heroicons/react/24/solid";
 
-import benefitOneImg from "../public/img/benefit-one.png";
-import benefitTwoImg from "../public/img/benefit-two.png";
+import benefitOneImg from "../public/img/benefit-one.jpg";
+import benefitTwoImg from "../public/img/benefit-two.jpg";
 
 const benefitOne = {
   title: "Highlight your benefits",
@@ -56,5 +56,4 @@ const benefitTwo = {
   ],
 };
 
-
-export {benefitOne, benefitTwo};
+export { benefitOne, benefitTwo };
