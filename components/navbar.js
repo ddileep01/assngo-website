@@ -4,7 +4,14 @@ import Image from "next/image";
 import { Disclosure } from "@headlessui/react";
 
 const Navbar = () => {
-  const navigation = ["Home", "Get Involved", "About Us", "Contact Us", "Blog"];
+  const navigation = [
+    { label: "Home", link: "/" },
+    { label: "Get Involved", link: "/get-involved" },
+    { label: "About Us", link: "/about" },
+    { label: "Contact Us", link: "/contact" },
+    { label: "Blog", link: "/blog" },
+  ];
+  // const navigation = ["Home", "Get Involved", "About Us", "Contact Us", "Blog"];
 
   return (
     <div className="w-full">
@@ -81,13 +88,13 @@ const Navbar = () => {
         {/* menu  */}
         <div className="hidden text-center lg:flex lg:items-center">
           <ul className="items-center justify-end flex-1 pt-6 list-none lg:pt-0 lg:flex">
-            {navigation.map((menu, index) => (
+            {navigation.map((item, index) => (
               <li className="mr-3 nav__item" key={index}>
                 <Link
-                  href="/"
+                  href={item.link} // Use the link property in each item
                   className="inline-block px-4 py-2 text-lg font-normal text-gray-800 no-underline rounded-md dark:text-gray-200 hover:text-green-950 focus:text-green-950 focus:bg-green-100 focus:outline-none dark:focus:bg-gray-800"
                 >
-                  {menu}
+                  {item.label}
                 </Link>
               </li>
             ))}

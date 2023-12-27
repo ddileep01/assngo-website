@@ -57,7 +57,7 @@ export default function Footer() {
                 <Link
                   key={index}
                   href="/"
-                  className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700"
+                  className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-green-900 focus:text-green-900 focus:bg-green-100 focus:outline-none dark:focus:bg-trueGray-700"
                 >
                   {item}
                 </Link>
@@ -70,7 +70,7 @@ export default function Footer() {
                 <Link
                   key={index}
                   href="/"
-                  className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700"
+                  className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-green-900 focus:text-green-900 focus:bg-green-100 focus:outline-none dark:focus:bg-trueGray-700"
                 >
                   {item}
                 </Link>
