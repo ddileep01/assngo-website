@@ -3,6 +3,7 @@ import Container from "./container";
 
 const Video = () => {
   const [playVideo, setPlayVideo] = useState(false);
+
   return (
     <Container>
       <div className="w-full max-w-4xl mx-auto overflow-hidden lg:mb-20 rounded-2xl ">
@@ -29,11 +30,11 @@ const Video = () => {
           )}
           {playVideo && (
             <iframe
-              src="https://www.youtube.com/watch?v=OjcLlABoFS8"
+              src="https://www.youtube.com/embed/OjcLlABoFS8" // Keep Embed URL
               title="YouTube video player"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
+              allowFullScreen 
             ></iframe>
           )}
         </div>
