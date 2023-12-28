@@ -1,5 +1,5 @@
 import Link from "next/link";
-import ThemeChanger from "./DarkSwitch";
+// import ThemeChanger from "./DarkSwitch";
 import Image from "next/image";
 import { Disclosure } from "@headlessui/react";
 
@@ -66,10 +66,10 @@ const Navbar = () => {
                     {navigation.map((item, index) => (
                       <Link
                         key={index}
-                        href="/"
+                        href={item.link}
                         className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-green-950 focus:text-green-950 focus:bg-green-100 dark:focus:bg-gray-800 focus:outline-none"
                       >
-                        {item}
+                        {item.label}
                       </Link>
                     ))}
                     <Link
