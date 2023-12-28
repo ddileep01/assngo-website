@@ -27,7 +27,7 @@ const Hero = () => {
                 Donate Now
               </a>
               <a
-                href="https://github.com/web3templates/nextly-template/"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSf55d013qhbvLtjSTfP5uNjB-icpabyyV4cTDixsC5S9FEKlQ/viewform"
                 target="_blank"
                 rel="noopener"
                 className="flex items-center space-x-2 text-gray-500 dark:text-gray-400"
