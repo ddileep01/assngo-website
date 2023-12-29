@@ -9,7 +9,7 @@ const Navbar = () => {
     { label: "Get Involved", link: "/get-involved" },
     { label: "About Us", link: "/about" },
     { label: "Contact Us", link: "/contact" },
-    { label: "Blog", link: "/blog" },
+    { label: "Gallery", link: "/gallery" },
   ];
   // const navigation = ["Home", "Get Involved", "About Us", "Contact Us", "Blog"];
 
@@ -73,7 +73,7 @@ const Navbar = () => {
                       </Link>
                     ))}
                     <Link
-                      href="/"
+                      href="/donation"
                       className="w-full px-6 py-2 mt-3 text-center text-white bg-green-950 rounded-md lg:ml-5"
                     >
                       Donate Now
@@ -103,7 +103,7 @@ const Navbar = () => {
 
         <div className="hidden mr-3 space-x-4 lg:flex nav__item">
           <Link
-            href="/"
+            href="/donation"
             className="px-6 py-2 text-white bg-green-950 rounded-md md:ml-5"
           >
             Donate Now

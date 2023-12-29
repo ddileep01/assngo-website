@@ -6,10 +6,20 @@ const Video = () => {
 
   return (
     <Container>
-      <div className="w-full max-w-4xl mx-auto overflow-hidden lg:mb-20 rounded-2xl ">
+      <div className="w-full max-w-4xl mx-auto overflow-hidden lg:mb-20 rounded-2xl aspect-w-16 aspect-h-6">
+        <iframe
+          src="https://www.youtube.com/embed/OjcLlABoFS8" // Keep Embed URL
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
+
+      {/* <div className="w-full max-w-4xl mx-auto overflow-hidden lg:mb-20 rounded-2xl ">
         <div
           onClick={() => setPlayVideo(!playVideo)}
-          className="relative bg-indigo-300 cursor-pointer aspect-w-16 aspect-h-9 bg-gradient-to-tr from-purple-400 to-indigo-700"
+          className="relative bg-green-300 cursor-pointer aspect-w-16 aspect-h-9 bg-gradient-to-tr from-yellow-400 to-green-700"
         >
           {!playVideo && (
             <button className="absolute inset-auto w-16 h-16 text-white transform -translate-x-1/2 -translate-y-1/2 lg:w-28 lg:h-28 top-1/2 left-1/2">
@@ -38,7 +48,7 @@ const Video = () => {
             ></iframe>
           )}
         </div>
-      </div>
+      </div> */}
     </Container>
   );
 };
