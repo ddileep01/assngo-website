@@ -51,7 +51,7 @@ const PopupWidget = () => {
       <Disclosure>
         {({ open }) => (
           <>
-            <Disclosure.Button className="fixed z-40 flex items-center justify-center transition duration-300 bg-indigo-500 rounded-full shadow-lg right-5 bottom-5 w-14 h-14 focus:outline-none hover:bg-indigo-600 focus:bg-indigo-600 ease">
+            <Disclosure.Button className="fixed z-40 flex items-center justify-center transition duration-300 bg-green-950 rounded-full shadow-lg right-5 bottom-5 w-14 h-14 focus:outline-none hover:bg-green-900 focus:bg-green-950 ease">
               <span className="sr-only">Open Contact form Widget</span>
               <Transition
                 show={!open}
@@ -105,7 +105,7 @@ const PopupWidget = () => {
               leave="transition duration-200 transform ease"
               leaveTo="opacity-0 translate-y-5">
               <Disclosure.Panel className=" flex flex-col  overflow-hidden left-0 h-full w-full sm:w-[350px] min-h-[250px] sm:h-[600px] border border-gray-300 dark:border-gray-800 bg-white shadow-2xl rounded-md sm:max-h-[calc(100vh-120px)]">
-                <div className="flex flex-col items-center justify-center h-32 p-5 bg-indigo-600">
+                <div className="flex flex-col items-center justify-center h-32 p-5 bg-green-950">
                   <h3 className="text-lg text-white">How can we help?</h3>
                   <p className="text-white opacity-50">
                     We usually respond in a few hours
@@ -116,7 +116,7 @@ const PopupWidget = () => {
                     <form onSubmit={handleSubmit(onSubmit)} noValidate>
                       <input
                         type="hidden"
-                        value="YOUR_ACCESS_KEY_HERE"
+                        value="1747bdcc-d8f7-4a90-a7fc-30409ea2490a"
                         {...register("apikey")}
                       />
                       <input
@@ -178,7 +178,7 @@ const PopupWidget = () => {
                               message: "Please enter a valid email",
                             },
                           })}
-                          placeholder="you@company.com"
+                          placeholder="you@example.com"
                           className={`w-full px-3 py-2 text-gray-600 placeholder-gray-300 bg-white border border-gray-300 rounded-md focus:outline-none focus:ring   ${
                             errors.email
                               ? "border-red-600 focus:border-red-600 ring-red-100"
@@ -222,7 +222,7 @@ const PopupWidget = () => {
                       <div className="mb-3">
                         <button
                           type="submit"
-                          className="w-full px-3 py-4 text-white bg-indigo-500 rounded-md focus:bg-indigo-600 focus:outline-none">
+                          className="w-full px-3 py-4 text-white bg-green-950 rounded-md focus:bg-green-950 focus:outline-none">
                           {isSubmitting ? (
                             <svg
                               className="w-5 h-5 mx-auto text-white animate-spin"
@@ -284,7 +284,7 @@ const PopupWidget = () => {
                         </h3>
                         <p className="text-gray-700 md:px-3">{Message}</p>
                         <button
-                          className="mt-6 text-indigo-600 focus:outline-none"
+                          className="mt-6 text-green-950 focus:outline-none"
                           onClick={() => reset()}>
                           Go back
                         </button>

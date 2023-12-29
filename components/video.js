@@ -6,7 +6,7 @@ const Video = () => {
 
   return (
     <Container>
-      <div className="w-full max-w-4xl mx-auto overflow-hidden lg:mb-20 rounded-2xl aspect-w-16 aspect-h-6">
+      <div className="w-full max-w-4xl mx-auto overflow-hidden lg:mb-20 rounded-2xl aspect-w-16 aspect-h-10 lg:aspect-w-16 lg:aspect-h-6">
         <iframe
           src="https://www.youtube.com/embed/OjcLlABoFS8" // Keep Embed URL
           title="YouTube video player"

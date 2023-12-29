@@ -11,46 +11,46 @@ import benefitOneImg from "../public/img/benefit-one.jpg";
 import benefitTwoImg from "../public/img/benefit-two.jpg";
 
 const benefitOne = {
-  title: "Highlight your benefits",
-  desc: "You can use this space to highlight your first benefit or a feature of your product. It can also contain an image or Illustration like in the example along with some bullet points.",
+  title: "Highlights of Akhanda Seva Samsthan",
+  desc: "Akhanda Seva Samsthan is dedicated to transformative community development, driven by the values of empowerment, education, and healthcare. Discover our highlights as we strive to make a positive difference in the lives of those in need.",
   image: benefitOneImg,
   bullets: [
     {
-      title: "Understand your customers",
-      desc: "Then explain the first point breifly in one or two lines.",
+      title: "Holistic Community Development",
+      desc: "Akhanda Seva Samsthan takes a comprehensive approach to community development, addressing social, educational, and healthcare needs to create lasting positive change.",
       icon: <FaceSmileIcon />,
     },
     {
-      title: "Improve acquisition",
-      desc: "Here you can add the next benefit point.",
+      title: "Impactful Volunteer Engagement",
+      desc: "Our NGO thrives on the dedication of passionate volunteers who actively contribute to meaningful projects, amplifying the reach and effectiveness of our initiatives.",
       icon: <ChartBarSquareIcon />,
     },
     {
-      title: "Drive customer retention",
-      desc: "This will be your last bullet point in this section.",
+      title: "Transparency and Accountability",
+      desc: "Akhanda Seva Samsthan upholds principles of transparency and accountability, ensuring that every donation and effort directly contributes to tangible improvements in the lives of those we serve.",
       icon: <CursorArrowRaysIcon />,
     },
   ],
 };
 
 const benefitTwo = {
-  title: "Offer more benefits here",
-  desc: "You can use this same layout with a flip image to highlight your rest of the benefits of your product. It can also contain an image or Illustration as above section along with some bullet points.",
+  title: "Offers more benefits like",
+  desc: "Akhanda Seva Samsthan is a beacon of transformative impact, committed to fostering holistic change in communities. Beyond the core pillars of empowerment, education, and healthcare, discover three additional dimensions that define our mission and contribute to a more resilient, sustainable, and inclusive world.",
   image: benefitTwoImg,
   bullets: [
     {
-      title: "Mobile Responsive Template",
-      desc: "Nextly is designed as a mobile first responsive template.",
+      title: "Sustainable Livelihood Opportunities",
+      desc: "Akhanda Seva Samsthan pioneers projects that create sustainable livelihood opportunities, empowering individuals to break the cycle of poverty. Through skill-building initiatives and entrepreneurship support, we aim to build resilient communities capable of shaping their own destinies.",
       icon: <DevicePhoneMobileIcon />,
     },
     {
-      title: "Powered by Next.js & TailwindCSS",
-      desc: "This template is powered by latest technologies and tools.",
+      title: "Environmental Stewardship Programs",
+      desc: "Our commitment extends beyond human well-being to the health of our planet. Akhanda Seva Samsthan champions environmental stewardship, engaging in tree-planting drives, waste management projects, and initiatives that promote eco-friendly practices. Together, we contribute to a sustainable and green future.",
       icon: <AdjustmentsHorizontalIcon />,
     },
     {
-      title: "Dark & Light Mode",
-      desc: "Nextly comes with a zero-config light & dark mode. ",
+      title: "Inclusive Social Services",
+      desc: "At the core of our mission is a dedication to inclusivity. Akhanda Seva Samsthan ensures that our social services cater to diverse populations, including marginalized and vulnerable groups. By fostering an inclusive environment, we strive to leave no one behind on the path to progress.",
       icon: <SunIcon />,
     },
   ],

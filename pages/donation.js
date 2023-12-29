@@ -51,10 +51,11 @@ export default function App() {
   return (
     <>
       <Navbar />
-      <div className="min-h-screen bg-gray-100">
+      <div className="min-h-screen bg-white-100">
         <div className='lg:flex justify-center py-5'>
             <div className="bg-white max-w-md">
             <div className='flex flex-col m-5'>
+                <h1 className="text-3xl font-bold mb-4">Donate Now</h1>
                 <Image
                 src="/img/phonepe-scanner.svg"
                 alt="Scanner"
@@ -70,7 +71,6 @@ export default function App() {
             </div>
             </div>
             <div className="bg-white p-6 rounded-md max-w-md w-full">
-            <h1 className="text-3xl font-bold mb-4">Donate Now</h1>
             <form
                 className="form"
                 action="/donations.js"

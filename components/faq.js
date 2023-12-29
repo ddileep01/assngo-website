@@ -16,8 +16,8 @@ const Faq = () => {
                     <span>{item.question}</span>
                     <ChevronUpIcon
                       className={`${
-                        open ? "transform rotate-180" : ""
-                      } w-5 h-5 text-indigo-500`}
+                        open ? "" : "transform rotate-180"
+                      } w-5 h-5 text-green-950`}
                     />
                   </Disclosure.Button>
                   <Disclosure.Panel className="px-4 pt-4 pb-2 text-gray-500 dark:text-gray-300">
@@ -35,22 +35,27 @@ const Faq = () => {
 
 const faqdata = [
   {
-    question: "Is this template completely free to use?",
-    answer: "Yes, this template is completely free to use.",
+    question: "How can I get involved with Akhanda Seva Samsthan?",
+    answer: "There are various ways to get involved, such as volunteering, making a donation, or participating in our events. Visit our 'Get Involved' page for more information.",
   },
   {
-    question: "Can I use it in a commercial project?",
-    answer: "Yes, this you can.",
+    question: "How can I donate to Akhanda Seva Samsthan?",
+    answer: "You can make a donation through our website by visiting the 'Donate' page. We also accept UPI.",
   },
   {
-    question: "What is your refund policy? ",
+    question: "Where does the money from donations go?",
     answer:
-      "If you're unhappy with your purchase for any reason, email us within 90 days and we'll refund you in full, no questions asked.",
+      "The funds from donations are used to support specific projects or initiatives. We are committed to transparency and accountability in the use of funds.",
   },
   {
-    question: "Do you offer technical support? ",
+    question: "Is Akhanda Seva Samsthan a registered non-profit organization? ",
     answer:
-      "No, we don't offer technical support for free downloads. Please purchase a support plan to get 6 months of support.",
+      "Yes, Akhanda Seva Samsthan is a registered non-profit organization. We are committed to operating with transparency and accountability.",
+  },
+  {
+    question: "Can my company or organization partner with Akhanda Seva Samsthan?",
+    answer:
+      "Yes, we welcome partnerships with businesses and organizations that share our values. Contact us for more information.",
   },
 ];
 

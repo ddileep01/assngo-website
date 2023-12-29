@@ -7,7 +7,7 @@ const AboutUs = () => {
   return (
     <>
       <Navbar />
-      <div className="bg-gray-100 min-h-screen">
+      <div className="bg-white-100 min-h-screen">
         {/* Hero Section */}
         <section className="bg-green-950 text-white py-20">
           <div className="container mx-auto text-center">
@@ -20,13 +20,8 @@ const AboutUs = () => {
         <section className="py-16">
           <div className="container mx-auto text-center">
             <h2 className="text-3xl font-bold mb-8">Our Mission</h2>
-            <p className="text-gray-700 mb-4">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-            <p className="text-gray-700 mb-4">
-              We strive to create meaningful change and contribute to a better
-              world. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            <p className="text-gray-700 mb-4 pl-8 pr-8">
+              At Akhanda Seva Samsthan, our mission is to catalyze positive transformation in underserved communities, fostering a future where every individual has the opportunity to thrive. With a commitment to holistic development, we empower through education, uplift through sustainable livelihoods, and advocate for comprehensive healthcare. Through collaborative efforts and unwavering compassion, we envision a world where every person can unfold their potential and contribute to the collective well-being of society. Join us on this journey of compassion, where each action brings us closer to a brighter, more equitable tomorrow.
             </p>
           </div>
         </section>

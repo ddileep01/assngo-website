@@ -24,12 +24,11 @@ const Home = () => {
       <Navbar />
       <Hero />
       <SectionTitle
-        pretitle="Nextly Benefits"
-        title=" Why should you use this landing page"
+        pretitle="Akhanda Seva Samsthan Benefits"
+        title=" Why should you join Akhanda Seva Samsthan?"
       >
-        Nextly is a free landing page & marketing website template for startups
-        and indie projects. Its built with Next.js & TailwindCSS. And its
-        completely open-source.
+        Akhanda Seva Samsthan provides life-changing opportunities through community-driven projects, fostering positive change and sustainable development.
+        Joining Akhanda Seva Samsthan offers the chance to be part of a compassionate community, dedicated to making a meaningful impact on the lives of those in need.
       </SectionTitle>
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />
@@ -44,15 +43,13 @@ const Home = () => {
       <Video />
       <SectionTitle
         pretitle="Testimonials"
-        title="Here's what our customers said"
+        title="Stories That Illuminate Akhanda Seva Samsthan's Transformative Journey."
       >
-        Testimonails is a great way to increase the brand trust and awareness.
-        Use this section to highlight your popular customers.
+        Discover the impact of Akhanda Seva Samsthan through the voices of those we've had the privilege to serve and those who have supported our mission. Read heartfelt testimonials that reflect the genuine experiences of individuals and communities touched by our collective efforts. These stories are a testament to the positive change we can achieve together.
       </SectionTitle>
       <Testimonials />
       <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
-        Answer your customers possible questions here, it will increase the
-        conversion rate as well as support or chat requests.
+        Explore answers to commonly asked questions about Akhanda Seva Samsthan. Gain insights into our mission, activities, and how you can be a part of creating positive social change.
       </SectionTitle>
       <Faq />
       <Cta />
