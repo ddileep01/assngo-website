@@ -1,65 +1,74 @@
-<p align="center">
- <a href="https://web3templates.com/?ref=nextly_github_logo">
- <img src="https://user-images.githubusercontent.com/1884712/132941531-0fdd7acf-47ca-424e-b77f-1fab2e372a37.png" alt="W3T" width="100" height="41"/>
- </a> 
- <br>
- <br>
-</p>
+# Akhanda Seva Samsthan Website
 
-# Nextly - Landing Page Template with Next.js & Tailwind CSS
+Welcome to the Akhanda Seva Samsthan (ASS) website repository! This website is built using Next.js, Tailwind CSS, Vercel, and Web3Forms to create a modern and efficient online presence for the NGO.
 
-Nextly is a free landing page & marketing website template for  startups and indie projects. Its built with Next.js & TailwindCSS.
-And its completely open-source.
- 
-![image](https://user-images.githubusercontent.com/1884712/121497169-03228680-c990-11eb-975a-e77fddc43de0.png)
+## Table of Contents
 
-## How to use
+- [Introduction](#introduction)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [Project Structure](#project-structure)
+- [Deployment](#deployment)
+- [Contributing](#contributing)
+- [License](#license)
 
-Click on the [Use Template](https://github.com/surjithctly/nextly-template/generate) button on this page to clone this respository to your github account. Or you can also clone this respository using terminal or bash. 
+## Introduction
 
-### 1\. Clone this Repository
+Akhanda Seva Samsthan is a non-profit organization committed to various social causes, and this website serves as a platform to showcase their initiatives, events, and connect with volunteers and supporters. The website aims to provide a user-friendly and informative experience to visitors.
+
+## Technologies Used
+
+- **Next.js**: The website is built using Next.js, a React framework for building fast and scalable applications.
+
+- **Tailwind CSS**: Tailwind CSS is used for styling, providing a utility-first approach for designing the UI.
+
+- **Vercel**: The website is deployed on Vercel, offering a seamless deployment process with automatic scaling and continuous integration.
+
+- **Web3Forms**: Web3Forms is integrated for handling forms on the website, making it easy to collect and manage user data securely.
+
+## Getting Started
+
+To run the project locally, follow these steps:
+
+1. Clone the repository:
 
 ```bash
-git clone https://github.com/surjithctly/nextly-template.git
+git clone https://github.com/ddileep01/ASS_Website
+cd ASS_Website
 ```
 
-### 2\. Navigate to the directory
+2. Install dependencies:
 
-```
-cd nextly-template
-```
-
-### 3\. Install dependencies
-
-```
-yarn install
-# or
+```bash
 npm install
 ```
 
-### 5\. Run Dev Server
+3. Run the development server:
 
-```
-yarn dev
-# or
+```bash
 npm run dev
 ```
 
-## Deploy with Vercel
+Visit `http://localhost:3000` in your browser to see the website.
 
-Deploy this template using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+## Project Structure
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/surjithctly/nextly-template&project-name=nextly-template&repository-name=nextly-template)
+- **`/pages`**: Contains the Next.js pages for different sections of the website.
+- **`/public`**: Houses static assets like images, fonts, etc.
+- **`/styles`**: Holds the stylesheets, with Tailwind CSS utilities.
+- **`/components`**: Reusable React components used across different pages.
+- **`/lib`**: Utility functions, configurations, and integrations.
 
+## Deployment
 
-## Author
+The website is automatically deployed on Vercel for every push to the main branch. Visit [https://akhanda-seva-samsthan.vercel.app/](https://akhanda-seva-samsthan.vercel.app/) to access the live website.
 
-Surjith S M ( [@surjithctly](https://surjithctly.in/) )
+## Contributing
 
----
+If you would like to contribute to the project, please follow the [contribution guidelines](CONTRIBUTING.md).
 
-[![image](https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg)](https://vercel.com/?utm_source=web3templates&utm_campaign=oss)
+## License
 
+This project is licensed under the [MIT License](LICENSE), which means you are free to use, modify, and distribute the code.
 
-
-
+Feel free to reach out if you have any questions or suggestions. Thank you for your interest in contributing to Akhanda Seva Samsthan!
