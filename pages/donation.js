@@ -91,7 +91,7 @@ export default function App() {
                     value={formData.Name}
                     onChange={handleChange}
                     className="mt-1 p-2 border border-gray-300 rounded-md w-full"
-                    placeholder="John Doe"
+                    placeholder="Your Name"
                     required
                 />
                 </div>
@@ -127,7 +127,7 @@ export default function App() {
                     value={formData.EmailID}
                     onChange={handleChange}
                     className="mt-1 p-2 border border-gray-300 rounded-md w-full"
-                    placeholder="JohnDoe@example.com"
+                    placeholder="name@example.com"
                     required
                 />
                 </div>

@@ -144,7 +144,7 @@ const PopupWidget = () => {
                         <input
                           type="text"
                           id="full_name"
-                          placeholder="John Doe"
+                          placeholder="Your Name"
                           {...register("name", {
                             required: "Full name is required",
                             maxLength: 80,
@@ -178,7 +178,7 @@ const PopupWidget = () => {
                               message: "Please enter a valid email",
                             },
                           })}
-                          placeholder="you@example.com"
+                          placeholder="name@example.com"
                           className={`w-full px-3 py-2 text-gray-600 placeholder-gray-300 bg-white border border-gray-300 rounded-md focus:outline-none focus:ring   ${
                             errors.email
                               ? "border-red-600 focus:border-red-600 ring-red-100"

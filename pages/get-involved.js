@@ -83,7 +83,7 @@ const GetInvolved = () => {
                 value={formData.Name}
                 onChange={handleChange}
                 className="mt-1 p-2 border border-gray-300 rounded-md w-full"
-                placeholder="John Doe"
+                placeholder="Your Name"
                 required
               />
             </div>
@@ -101,7 +101,7 @@ const GetInvolved = () => {
                 value={formData.Email}
                 onChange={handleChange}
                 className="mt-1 p-2 border border-gray-300 rounded-md w-full"
-                placeholder="john@example.com"
+                placeholder="name@example.com"
                 required
               />
             </div>
