@@ -252,11 +252,11 @@ const PopupWidget = () => {
                         <span>
                           Powered by{" "}
                           <a
-                            href="https://Web3Forms.com"
+                            href="https://dileep18052001.wixsite.com/projects-dileep"
                             className="text-gray-600"
                             target="_blank"
                             rel="noopener noreferrer">
-                            Web3Forms
+                            Projects X Dileep
                           </a>
                         </span>
                       </p>

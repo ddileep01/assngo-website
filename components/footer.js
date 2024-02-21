@@ -41,7 +41,7 @@ export default function Footer() {
               Your support can be the catalyst for transformative change. Consider making a donation to Akhanda Seva Samsthan and help us fund vital projects that uplift communities. Every contribution, no matter the size, contributes to our collective efforts in creating a more equitable and sustainable world.
             </div>
 
-            <div className="mt-5">
+            {/* <div className="mt-5">
               <a
                 href="https://vercel.com/?utm_source=web3templates&utm_campaign=oss"
                 target="_blank"
@@ -50,12 +50,12 @@ export default function Footer() {
               >
                 <Image
                   src="/img/vercel.svg"
-                  alt="Powered by Vercel"
+                  alt="Powered by Projects Dileep"
                   width="212"
                   height="44"
                 />
               </a>
-            </div>
+            </div> */}
           </div>
 
           <div>
