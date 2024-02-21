@@ -7,12 +7,47 @@ const Gallery = () => {
   const campaigns = [
     {
       id: 1,
-      image: "/img/gallery/gi1.jpg", // Replace with your image URLs
+      image: "/img/gallery/gi1.jpg", 
       description: "Lorem ipsum dolor sit amet. Et blanditiis blanditiis ut quibusdam enim sit deserunt ratione 33 quod voluptas et eligendi expedita non error quaerat qui deserunt repudiandae. ",
     },
     {
       id: 2,
-      image: "/img/gallery/gi2.jpg", // Replace with your image URLs
+      image: "/img/gallery/gi2.jpg", 
+      description: "Et laboriosam velit non quibusdam ducimus et repellat voluptatem eum quis ipsum aut galisum odio nam doloribus commodi et magnam quibusdam. ",
+    },
+    {
+      id: 3,
+      image: "/img/gallery/gi3.jpg", 
+      description: "Et laboriosam velit non quibusdam ducimus et repellat voluptatem eum quis ipsum aut galisum odio nam doloribus commodi et magnam quibusdam. ",
+    },
+    {
+      id: 4,
+      image: "/img/gallery/gi4.jpg", 
+      description: "Et laboriosam velit non quibusdam ducimus et repellat voluptatem eum quis ipsum aut galisum odio nam doloribus commodi et magnam quibusdam. ",
+    },
+    {
+      id: 5,
+      image: "/img/gallery/gi5.jpg", 
+      description: "Et laboriosam velit non quibusdam ducimus et repellat voluptatem eum quis ipsum aut galisum odio nam doloribus commodi et magnam quibusdam. ",
+    },
+    {
+      id: 6,
+      image: "/img/gallery/gi6.jpg", 
+      description: "Et laboriosam velit non quibusdam ducimus et repellat voluptatem eum quis ipsum aut galisum odio nam doloribus commodi et magnam quibusdam. ",
+    },
+    {
+      id: 7,
+      image: "/img/gallery/gi7.jpg", 
+      description: "Et laboriosam velit non quibusdam ducimus et repellat voluptatem eum quis ipsum aut galisum odio nam doloribus commodi et magnam quibusdam. ",
+    },
+    {
+      id: 8,
+      image: "/img/gallery/gi8.jpg", 
+      description: "Et laboriosam velit non quibusdam ducimus et repellat voluptatem eum quis ipsum aut galisum odio nam doloribus commodi et magnam quibusdam. ",
+    },
+    {
+      id: 9,
+      image: "/img/gallery/gi9.jpg", 
       description: "Et laboriosam velit non quibusdam ducimus et repellat voluptatem eum quis ipsum aut galisum odio nam doloribus commodi et magnam quibusdam. ",
     },
     // Add more campaigns as needed
