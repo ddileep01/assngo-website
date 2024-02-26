@@ -8,7 +8,7 @@ export default function Footer() {
   // const legal = ["Terms", "Privacy", "Legal"];
   const navigation = [
     { label: "Sitemap", link: "/sitemap" },
-    { label: "Blog", link: "/blog" },
+    { label: "Blogs and News", link: "/blogs" },
   ];
   const legal = [
     { label: "Terms", link: "/terms" },
@@ -38,7 +38,11 @@ export default function Footer() {
             </div>
 
             <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
-              Your support can be the catalyst for transformative change. Consider making a donation to Akhanda Seva Samsthan and help us fund vital projects that uplift communities. Every contribution, no matter the size, contributes to our collective efforts in creating a more equitable and sustainable world.
+              Your support can be the catalyst for transformative change.
+              Consider making a donation to Akhanda Seva Samsthan and help us
+              fund vital projects that uplift communities. Every contribution,
+              no matter the size, contributes to our collective efforts in
+              creating a more equitable and sustainable world.
             </div>
 
             {/* <div className="mt-5">
