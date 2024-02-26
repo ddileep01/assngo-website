@@ -39,7 +39,7 @@ const AboutUs = () => {
                   alt="Team Member 1"
                 />
                 <h3 className="text-xl font-bold mb-2">Dayakar Rayapureddy</h3>
-                <p className="text-gray-700">Co-founder</p>
+                <p className="text-gray-700">President</p>
               </div>
 
               {/* Team Member 2 */}
@@ -50,7 +50,7 @@ const AboutUs = () => {
                   alt="Team Member 2"
                 />
                 <h3 className="text-xl font-bold mb-2">Gowri Naidu Kolusu</h3>
-                <p className="text-gray-700">Director of Programs</p>
+                <p className="text-gray-700">Vice President</p>
               </div>
 
               {/* Team Member 3 */}
@@ -61,7 +61,73 @@ const AboutUs = () => {
                   alt="Team Member 3"
                 />
                 <h3 className="text-xl font-bold mb-2">Kedhar Battina</h3>
-                <p className="text-gray-700">Community Outreach</p>
+                <p className="text-gray-700">Secretary</p>
+              </div>
+
+              {/* Team Member 4 */}
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <img
+                  className="w-24 h-24 rounded-full mx-auto mb-4"
+                  src="https://media.licdn.com/dms/image/D5603AQGnNZu1JM-_6g/profile-displayphoto-shrink_400_400/0/1692685005692?e=1714608000&v=beta&t=DbJuPTn0XXv7Y79aLOUya8le2HoU-K89WJGFpS8UCWI"
+                  alt="Team Member 4"
+                />
+                <h3 className="text-xl font-bold mb-2">Raghu Aratlakota</h3>
+                <p className="text-gray-700">Tresurer</p>
+              </div>
+
+              {/* Team Member 5 */}
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <img
+                  className="w-24 h-24 rounded-full mx-auto mb-4"
+                  src="https://media.licdn.com/dms/image/D5603AQHuPqqpH5rzwQ/profile-displayphoto-shrink_400_400/0/1701173601748?e=1714608000&v=beta&t=-yJ35SPaBm59ERS6AWsjtBsX7FgNEzgpTkRuGkAnWv8"
+                  alt="Team Member 5"
+                />
+                <h3 className="text-xl font-bold mb-2">Ganesh Nadipalli</h3>
+                <p className="text-gray-700">General Secretary</p>
+              </div>
+
+              {/* Team Member 6 */}
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <img
+                  className="w-24 h-24 rounded-full mx-auto mb-4"
+                  src="https://media.licdn.com/dms/image/D5603AQGNoyzJzAf3bQ/profile-displayphoto-shrink_400_400/0/1699251044548?e=1714608000&v=beta&t=Jw54AnGjy_g1CWCEvNieWf5n1ZsWVQ-Eqb64vt30huY"
+                  alt="Team Member 6"
+                />
+                <h3 className="text-xl font-bold mb-2">Varahala babu killadi</h3>
+                <p className="text-gray-700">E.C. Member</p>
+              </div>
+
+              {/* Team Member 7 */}
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <img
+                  className="w-24 h-24 rounded-full mx-auto mb-4"
+                  src="https://i.ibb.co/4ZWKJv8/417230578-882755593587658-3502538010855300177-n.jpg"
+                  alt="Team Member 7"
+                />
+                <h3 className="text-xl font-bold mb-2">Avinash Tammireddy</h3>
+                <p className="text-gray-700">E.C. Member</p>
+              </div>
+
+              {/* Team Member 8 */}
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <img
+                  className="w-24 h-24 rounded-full mx-auto mb-4"
+                  src="https://media.licdn.com/dms/image/C4D03AQERJL3GGg1lLQ/profile-displayphoto-shrink_400_400/0/1623905835312?e=1714608000&v=beta&t=3OoqOUjiSTArf1ezZwj9vvyaCbncmVI36xoh6wmsyQE"
+                  alt="Team Member 8"
+                />
+                <h3 className="text-xl font-bold mb-2">Abhishek Sakiley</h3>
+                <p className="text-gray-700">Publicity Designer</p>
+              </div>
+
+              {/* Team Member 8 */}
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <img
+                  className="w-24 h-24 rounded-full mx-auto mb-4"
+                  src="https://media.licdn.com/dms/image/D5603AQG-yf6y9Cj47A/profile-displayphoto-shrink_100_100/0/1675765715464?e=1714608000&v=beta&t=qduEwcm0OpcIoSGgn_zRwMxzG3JWhbyBoUx14frEXy0"
+                  alt="Team Member 8"
+                />
+                <h3 className="text-xl font-bold mb-2">Dileep Kumar D</h3>
+                <p className="text-gray-700">Technical Coordinator</p>
               </div>
             </div>
           </div>
