@@ -57,7 +57,7 @@ const AboutUs = () => {
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <img
                   className="w-24 h-24 rounded-full mx-auto mb-4"
-                  src="/img/team/ti2.jpg"
+                  src="https://i.ibb.co/r7sKRrr/DSC1084.jpg"
                   alt="Team Member 3"
                 />
                 <h3 className="text-xl font-bold mb-2">Kedhar Battina</h3>
@@ -68,32 +68,33 @@ const AboutUs = () => {
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <img
                   className="w-24 h-24 rounded-full mx-auto mb-4"
-                  src="https://media.licdn.com/dms/image/D5603AQGnNZu1JM-_6g/profile-displayphoto-shrink_400_400/0/1692685005692?e=1714608000&v=beta&t=DbJuPTn0XXv7Y79aLOUya8le2HoU-K89WJGFpS8UCWI"
+                  src="https://i.ibb.co/dQMdb0x/Nadipalli-ID-card.jpg"
                   alt="Team Member 4"
                 />
-                <h3 className="text-xl font-bold mb-2">Raghu Aratlakota</h3>
-                <p className="text-gray-700">Tresurer</p>
+                <h3 className="text-xl font-bold mb-2">Ganesh Nadipalli</h3>
+                <p className="text-gray-700">General Secretary</p>
               </div>
+              
 
               {/* Team Member 5 */}
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <img
                   className="w-24 h-24 rounded-full mx-auto mb-4"
-                  src="https://media.licdn.com/dms/image/D5603AQHuPqqpH5rzwQ/profile-displayphoto-shrink_400_400/0/1701173601748?e=1714608000&v=beta&t=-yJ35SPaBm59ERS6AWsjtBsX7FgNEzgpTkRuGkAnWv8"
+                  src="https://media.licdn.com/dms/image/D5603AQGnNZu1JM-_6g/profile-displayphoto-shrink_400_400/0/1692685005692?e=1714608000&v=beta&t=DbJuPTn0XXv7Y79aLOUya8le2HoU-K89WJGFpS8UCWI"
                   alt="Team Member 5"
                 />
-                <h3 className="text-xl font-bold mb-2">Ganesh Nadipalli</h3>
-                <p className="text-gray-700">General Secretary</p>
+                <h3 className="text-xl font-bold mb-2">Raghu Aratlakota</h3>
+                <p className="text-gray-700">Tresurer</p>
               </div>
 
               {/* Team Member 6 */}
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <img
                   className="w-24 h-24 rounded-full mx-auto mb-4"
-                  src="https://media.licdn.com/dms/image/D5603AQGNoyzJzAf3bQ/profile-displayphoto-shrink_400_400/0/1699251044548?e=1714608000&v=beta&t=Jw54AnGjy_g1CWCEvNieWf5n1ZsWVQ-Eqb64vt30huY"
+                  src="https://i.ibb.co/4ZWKJv8/417230578-882755593587658-3502538010855300177-n.jpg"
                   alt="Team Member 6"
                 />
-                <h3 className="text-xl font-bold mb-2">Varahala babu killadi</h3>
+                <h3 className="text-xl font-bold mb-2">Avinash Tammireddy</h3>
                 <p className="text-gray-700">E.C. Member</p>
               </div>
 
@@ -101,10 +102,10 @@ const AboutUs = () => {
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <img
                   className="w-24 h-24 rounded-full mx-auto mb-4"
-                  src="https://i.ibb.co/4ZWKJv8/417230578-882755593587658-3502538010855300177-n.jpg"
+                  src="https://media.licdn.com/dms/image/D5603AQGNoyzJzAf3bQ/profile-displayphoto-shrink_400_400/0/1699251044548?e=1714608000&v=beta&t=Jw54AnGjy_g1CWCEvNieWf5n1ZsWVQ-Eqb64vt30huY"
                   alt="Team Member 7"
                 />
-                <h3 className="text-xl font-bold mb-2">Avinash Tammireddy</h3>
+                <h3 className="text-xl font-bold mb-2">Varahala babu killadi</h3>
                 <p className="text-gray-700">E.C. Member</p>
               </div>
 
