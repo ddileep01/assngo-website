@@ -22,17 +22,17 @@ const Gallery = () => {
     },
     {
       id: 4,
-      image: "/img/gallery/gi4.jpg", 
+      image: "https://i.ibb.co/560C117/gi4.jpg", 
       description: "Et laboriosam velit non quibusdam ducimus et repellat voluptatem eum quis ipsum aut galisum odio nam doloribus commodi et magnam quibusdam. ",
     },
     {
       id: 5,
-      image: "/img/gallery/gi5.jpg", 
+      image: "https://i.ibb.co/cwhJNQk/gi5.jpg", 
       description: "Et laboriosam velit non quibusdam ducimus et repellat voluptatem eum quis ipsum aut galisum odio nam doloribus commodi et magnam quibusdam. ",
     },
     {
       id: 6,
-      image: "/img/gallery/gi6.jpg", 
+      image: "https://i.ibb.co/jRwWKrQ/gi6.jpg", 
       description: "Et laboriosam velit non quibusdam ducimus et repellat voluptatem eum quis ipsum aut galisum odio nam doloribus commodi et magnam quibusdam. ",
     },
     {
