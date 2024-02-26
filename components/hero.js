@@ -22,7 +22,7 @@ const Hero = () => {
                 href="/donation"
                 target="_blank"
                 rel="noopener"
-                className="px-8 py-4 text-lg font-medium text-center text-white bg-green-950 rounded-md "
+                className="px-8 py-4 text-lg font-medium text-center text-white bg-green-950 hover:bg-green-900 rounded-md "
               >
                 Donate Now
               </a>

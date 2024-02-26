@@ -74,7 +74,7 @@ const Navbar = () => {
                     ))}
                     <Link
                       href="/donation"
-                      className="w-full px-6 py-2 mt-3 text-center text-white bg-green-950 rounded-md lg:ml-5"
+                      className="w-full px-6 py-2 mt-3 text-center text-white bg-green-950 hover:bg-green-900 rounded-md lg:ml-5"
                     >
                       Donate Now
                     </Link>
@@ -104,7 +104,7 @@ const Navbar = () => {
         <div className="hidden mr-3 space-x-4 lg:flex nav__item">
           <Link
             href="/donation"
-            className="px-6 py-2 text-white bg-green-950 rounded-md md:ml-5"
+            className="px-6 py-2 text-white bg-green-950 hover:bg-green-900 rounded-md md:ml-5"
           >
             Donate Now
           </Link>

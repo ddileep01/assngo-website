@@ -143,7 +143,7 @@ const AboutUs = () => {
             <a
               href="mailto:
               akhandasevasamsthan.ass@gmail.com"
-              className="px-6 py-3 text-lg font-medium text-center text-white bg-green-950 rounded-md transition duration-300"
+              className="px-6 py-3 text-lg font-medium text-center text-white bg-green-950 hover:bg-green-900 rounded-md transition duration-300"
             >
               Email Us
             </a>
