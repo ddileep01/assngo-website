@@ -8,6 +8,7 @@ const Navbar = () => {
     { label: "Home", link: "/" },
     { label: "Get Involved", link: "/get-involved" },
     { label: "About Us", link: "/about" },
+    { label: "Blogs", link: "/blogs" },
     { label: "Contact Us", link: "/contact" },
     { label: "Gallery", link: "/gallery" },
   ];
