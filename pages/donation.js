@@ -55,18 +55,28 @@ export default function App() {
         <div className='lg:flex justify-center py-5'>
             <div className="bg-white max-w-md">
             <div className='flex flex-col m-5'>
-                <h1 className="text-3xl font-bold mb-4">Donate Now</h1>
-                <Image
-                src="/img/phonepe-scanner.svg"
-                alt="Scanner"
+                <h1 className="text-3xl font-bold mb-4 pl-2">Donate Now</h1>
+                <img
+                src="https://i.ibb.co/G5xR3VQ/payments-gateways-strip.png"
+                alt="Payment Gateways"
+                width="250"
+                height="250"
+                />
+                <img
+                src="https://i.ibb.co/K6Xy43x/ass-donation-scanner-phonepe.jpg"
+                alt="Payment Gateways"
                 width="250"
                 height="250"
                 />
                 <h3 className='text-left'>Pay your donation here using above QR scanner</h3>
-                <br />
+                <div className="flex items-center my-4">
+                  <hr className="flex-1 border-t border-gray-400" />
+                  <span className="mx-4 text-gray-500">OR</span>
+                  <hr className="flex-1 border-t border-gray-400" />
+                </div>
                 <p className='text-left'>
-                another method, use this UPI Id: 8528528522@ybl or enter phone
-                number 8528528522
+                  Use this UPI Id: <strong>8143660501@ybl</strong> or enter Contact
+                  number <strong>8143660501</strong>
                 </p>
             </div>
             </div>
