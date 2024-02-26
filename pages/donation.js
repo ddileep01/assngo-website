@@ -223,6 +223,7 @@ export default function App() {
                 type="text"
                 name="fullname"
                 required
+                placeholder='Your full name'
                 class="mt-1 p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-green-900 focus:border-green-900 block w-full"
               />
 
@@ -244,6 +245,7 @@ export default function App() {
                 type="number"
                 name="donatedamount"
                 required
+                placeholder='₹4,999'
                 class="mt-1 p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-green-900 focus:border-green-900 block w-full"
               />
 
@@ -265,6 +267,7 @@ export default function App() {
                 type="email"
                 name="email"
                 required
+                placeholder='yourname@gmail.com'
                 class="mt-1 p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-green-900 focus:border-green-900 block w-full"
               />
 
@@ -286,6 +289,7 @@ export default function App() {
                 type="tel"
                 name="contactnumber"
                 required
+                placeholder='+91 00000 00000'
                 class="mt-1 p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-green-900 focus:border-green-900 block w-full"
               />
 
@@ -306,6 +310,7 @@ export default function App() {
                 id="message"
                 name="message"
                 required
+                placeholder='Your message here'
                 class="mt-1 p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-green-900 focus:border-green-900 block w-full"
               ></textarea>
 
