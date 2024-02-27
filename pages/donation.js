@@ -78,7 +78,7 @@ export default function App() {
     <>
       <Navbar />
       <div className="min-h-screen bg-white-100">
-        <div className="lg:flex justify-center py-5">
+        <div className="lg:flex justify-center">
           <div className="bg-white max-w-md">
             <div className="flex flex-col m-5">
               <h1 className="text-3xl font-bold mb-4 pl-2">Donate Now</h1>
@@ -211,6 +211,16 @@ export default function App() {
                 Donate
                 </button>
             </form> */}
+            <div>
+              <p style={{ display: 'flex', alignItems: 'center' }} className='mb-4'>
+                <span className='mr-2'>
+                  <svg xmlns="http://www.w3.org/2000/svg" height="14" width="14" viewBox="0 0 512 512">
+                    <path fill="#6b6b6b" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336h24V272H216c-13.3 0-24-10.7-24-24s10.7-24 24-24h48c13.3 0 24 10.7 24 24v88h8c13.3 0 24 10.7 24 24s-10.7 24-24 24H216c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/>
+                  </svg>
+                </span>
+                <span className='pt-5'>Please fill out this form after you complete the payment and let us know.</span>
+              </p>
+            </div>
             <form onSubmit={handleSubmit} class="max-w-md mx-auto">
               <label
                 htmlFor="fullname"
@@ -223,7 +233,7 @@ export default function App() {
                 type="text"
                 name="fullname"
                 required
-                placeholder='Your full name'
+                placeholder="Your full name"
                 class="mt-1 p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-green-900 focus:border-green-900 block w-full"
               />
 
@@ -245,7 +255,7 @@ export default function App() {
                 type="number"
                 name="donatedamount"
                 required
-                placeholder='₹4,999'
+                placeholder="₹4,999"
                 class="mt-1 p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-green-900 focus:border-green-900 block w-full"
               />
 
@@ -267,7 +277,7 @@ export default function App() {
                 type="email"
                 name="email"
                 required
-                placeholder='yourname@gmail.com'
+                placeholder="yourname@gmail.com"
                 class="mt-1 p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-green-900 focus:border-green-900 block w-full"
               />
 
@@ -289,7 +299,7 @@ export default function App() {
                 type="tel"
                 name="contactnumber"
                 required
-                placeholder='+91 00000 00000'
+                placeholder="+91 00000 00000"
                 class="mt-1 p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-green-900 focus:border-green-900 block w-full"
               />
 
@@ -310,7 +320,7 @@ export default function App() {
                 id="message"
                 name="message"
                 required
-                placeholder='Your message here'
+                placeholder="Your message here"
                 class="mt-1 p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-green-900 focus:border-green-900 block w-full"
               ></textarea>
 
