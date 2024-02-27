@@ -46,7 +46,7 @@ const AboutUs = () => {
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <img
                   className="w-24 h-24 rounded-full mx-auto mb-4"
-                  src="/img/team/ti1.jpg"
+                  src="https://i.ibb.co/9vLJQC9/gowriimg.jpg"
                   alt="Team Member 2"
                 />
                 <h3 className="text-xl font-bold mb-2">Gowri Naidu Kolusu</h3>
