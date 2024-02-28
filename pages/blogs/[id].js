@@ -71,7 +71,7 @@ const Blog = () => {
           </div>
           <Link
             href="/blogs"
-            className="w-full px-6  py-2 mt-3 text-center text-white bg-green-950 hover:bg-green-900 rounded-md lg:ml-5"
+            className="w-full px-6 ml-6 py-2 mt-3 text-center text-white bg-green-950 hover:bg-green-900 rounded-md lg:ml-5"
           >
             Back
           </Link>

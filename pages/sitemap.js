@@ -36,6 +36,9 @@ const SitemapPage = () => {
             <li>
               <Link href="/gallery">Gallery</Link>
             </li>
+            <li>
+              <Link href="/blogs">Blogs and News</Link>
+            </li>
             {/* Add more pages as needed */}
           </ul>
 
