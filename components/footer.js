@@ -9,6 +9,7 @@ export default function Footer() {
   const navigation = [
     { label: "Sitemap", link: "/sitemap" },
     { label: "Blogs and News", link: "/blogs" },
+    { label: "Admin Login", link: "/" },
   ];
   const legal = [
     { label: "Terms", link: "/terms" },
