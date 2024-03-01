@@ -6,53 +6,65 @@ import userOneImg from "../public/img/user1.jpg";
 import userTwoImg from "../public/img/user2.jpg";
 import userThreeImg from "../public/img/user3.jpg";
 
-const Testimonials  = () => {
+const Testimonials = () => {
   return (
     <Container>
       <div className="grid gap-10 lg:grid-cols-2 xl:grid-cols-3">
         <div className="lg:col-span-2 xl:col-auto">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="leading-normal ">
-              Volunteering with Akhanda Seva Samsthan has been a transformative experience. The organization's dedication to community upliftment is truly inspiring, and I've witnessed firsthand the positive change we can bring when we come together.
+              Akhanda Seva Samsthan's dedication to social responsibility and
+              their commitment to various causes make them a valuable asset to
+              the communities they serve. I feel proud to be a part-time
+              volunteer for the organisation.
             </p>
 
             <Avatar
               image={userOneImg}
-              name="Sarah Steiner"
-              title="VP Sales at Google"
+              name="Tarak"
+              title="Youth For Seva Organization"
             />
           </div>
         </div>
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="leading-normal ">
-              Akhanda Seva Samsthan's initiatives have made a significant difference in my life. Their support during challenging times has given me hope and a renewed sense of purpose. I am grateful for their commitment to making a lasting impact.
+              Proud of Akhanda Seva Samsthan's dedication to education and
+              healthcare. They're a beacon of hope, offering aid to the needy
+              and transforming lives. Actions speak louder than words; their
+              work speaks volumes.
             </p>
 
             <Avatar
               image={userTwoImg}
-              name="Dylan Ambrose"
-              title="Lead marketer at Netflix"
+              name="Vishnu Priyanka"
+              title="Assistant Professor"
             />
           </div>
         </div>
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="leading-normal ">
-              Contributing to Akhanda Seva Samsthan's projects has been a fulfilling journey. The transparency and efficiency in utilizing funds ensure that every donation has a meaningful impact. I'm proud to be part of their mission.
+              Grateful for the chance to aid Akanda Seva Samithi's food donation
+              efforts. Their dedication is inspiring. Let's join hands to make a
+              difference. Thank you, Akanda Seva Samithi, for this meaningful
+              opportunity to serve our community together.
             </p>
 
             <Avatar
               image={userThreeImg}
-              name="Gabrielle Winn"
-              title="Co-founder of Acme Inc"
+              name="Pavan Kachala"
+              title="Software Engineer"
             />
           </div>
         </div>
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="leading-normal ">
-              As a local healthcare provider, collaborating with Akhanda Seva Samsthan has allowed us to extend our services to underserved communities. Together, we've been able to create a healthier and happier community.
+              As a local healthcare provider, collaborating with Akhanda Seva
+              Samsthan has allowed us to extend our services to underserved
+              communities. Together, we've been able to create a healthier and
+              happier community.
             </p>
 
             <Avatar
@@ -65,7 +77,10 @@ const Testimonials  = () => {
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="leading-normal ">
-              Attending Akhanda Seva Samsthan's events has been an enlightening experience. The organization creates spaces for meaningful discussions and fosters a sense of community that extends beyond the event itself. I look forward to future engagements.
+              Attending Akhanda Seva Samsthan's events has been an enlightening
+              experience. The organization creates spaces for meaningful
+              discussions and fosters a sense of community that extends beyond
+              the event itself. I look forward to future engagements.
             </p>
 
             <Avatar
@@ -78,7 +93,7 @@ const Testimonials  = () => {
       </div>
     </Container>
   );
-}
+};
 
 function Avatar(props) {
   return (
