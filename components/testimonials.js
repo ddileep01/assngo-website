@@ -5,6 +5,7 @@ import Image from "next/image";
 import userOneImg from "../public/img/user1.jpg";
 import userTwoImg from "../public/img/user2.jpg";
 import userThreeImg from "../public/img/user3.jpg";
+import defaultUser from "../public/img/default_user.jpg";
 
 const Testimonials = () => {
   return (
@@ -29,10 +30,11 @@ const Testimonials = () => {
           text="I am incredibly grateful to have had the opportunity to donate food through Akhanda Seve Samsthan. Knowing that every rupee I contributed went directly towards helping others brought me immense joy and satisfaction. The selfless dedication of the people involved in this NGO is truly inspiring. They work tirelessly to improve the lives of those in need, and their commitment to the betterment of society is commendable. I wholeheartedly support their noble cause and encourage others to join in their efforts to make a positive impact on our community. Thank you, Akanda Seva Samithi, for your invaluable service and for giving me the chance to be a part of something meaningful."
         />
         <TestimonialCard
-          image={userThreeImg}
+          image={defaultUser}
           name="Hema"
           title="Software Engineer"
-          text="I am incredibly grateful to have had the opportunity to donate food through Akhanda Seve Samsthan. Knowing that every rupee I contributed went directly towards helping others brought me immense joy and satisfaction. The selfless dedication of the people involved in this NGO is truly inspiring. They work tirelessly to improve the lives of those in need, and their commitment to the betterment of society is commendable. I wholeheartedly support their noble cause and encourage others to join in their efforts to make a positive impact on our community. Thank you, Akanda Seva Samithi, for your invaluable service and for giving me the chance to be a part of something meaningful."
+          text="Your hard work and commitment to providing food and support to those in need are truly admirable. The simplicity of your approach and the clear communication within your team ensure that your efforts are effective and impactful.
+          Really had a good time with your team 😊"
         />
       </div>
     </Container>
@@ -53,7 +55,7 @@ const TestimonialCard = ({ image, name, title, text }) => {
           {expanded ? text : `${text.slice(0, 100)}...`}
           <button
             onClick={toggleExpansion}
-            className="text-blue-500 mt-2 focus:outline-none"
+            className="text-blue-500 md:ml-2 focus:outline-none"
           >
             {expanded ? "Read less" : "Read more"}
           </button>
