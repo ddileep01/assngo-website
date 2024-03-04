@@ -7,8 +7,8 @@ import {
   SunIcon,
 } from "@heroicons/react/24/solid";
 
-import benefitOneImg from "../public/img/benefit-one.jpg";
-import benefitTwoImg from "../public/img/benefit-two.jpg";
+import benefitOneImg from "../public/img/p8.png";
+import benefitTwoImg from "../public/img/p3.png";
 
 const benefitOne = {
   title: "Highlights of Akhanda Seva Samsthan",

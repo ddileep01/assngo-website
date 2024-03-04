@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Container from "./container";
-import heroImg from "../public/img/hero.png";
+import heroImg from "../public/img/p6.png";
 import fundriserIcon from "../public/img/fundriser-icon.svg";
 
 const Hero = () => {
