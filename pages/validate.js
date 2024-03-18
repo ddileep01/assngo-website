@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
+import { ClipLoader } from "react-spinners"; // Importing ClipLoader from react-spinners
 
 const Validate = () => {
   const [certificateInfo, setCertificateInfo] = useState(null);
   const [errorMessage, setErrorMessage] = useState(null);
   const [id, setId] = useState("");
+  const [loading, setLoading] = useState(false); // State to track loading status
 
   const formatDate = (dateString) => {
     const date = new Date(dateString);
@@ -16,6 +18,8 @@ const Validate = () => {
   };
 
   const validateCertificate = async () => {
+    setLoading(true); // Start loading
+
     try {
       const response = await fetch(
         "https://good-jade-dhole-robe.cyclic.app/certificates"
@@ -33,6 +37,8 @@ const Validate = () => {
     } catch (error) {
       setErrorMessage("Error validating certificate.");
       setCertificateInfo(null);
+    } finally {
+      setLoading(false); // Stop loading
     }
 
     // Reset the input box after validation
@@ -48,9 +54,6 @@ const Validate = () => {
       <Navbar />
       <div className="bg-gray-100 flex flex-col justify-center py-12 sm:px-6 lg:px-8">
         <div className="sm:mx-auto sm:w-full sm:max-w-md">
-          {/* <h1 className="text-center text-2xl font-extrabold text-gray-900">
-      Validation Page
-    </h1> */}
           <div className="mt-8 bg-white py-8 px-4 shadow sm:rounded-lg sm:px-10">
             <div>
               <label
@@ -79,6 +82,11 @@ const Validate = () => {
                 Validate
               </button>
             </div>
+            {loading && (
+              <div className="mt-4 flex justify-center">
+                <ClipLoader size={35} color={"#10B981"} loading={loading} />
+              </div>
+            )}
             {errorMessage && (
               <p className="mt-4 text-sm text-red-600">{errorMessage}</p>
             )}
