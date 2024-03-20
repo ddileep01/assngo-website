@@ -9,7 +9,7 @@ export default function Footer() {
   const navigation = [
     { label: "Sitemap", link: "/sitemap" },
     { label: "Blogs and News", link: "/blogs" },
-    { label: "validate", link: "/validate" },
+    { label: "Validate Certificate", link: "/validate" },
   ];
   const legal = [
     { label: "Terms", link: "/terms" },
