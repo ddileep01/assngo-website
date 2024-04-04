@@ -2,6 +2,8 @@
 import React from "react";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
+import heroImg from "../public/img/p7.png";
+import Image from "next/image";
 
 const AboutUs = () => {
   return (
@@ -21,8 +23,60 @@ const AboutUs = () => {
           <div className="container mx-auto text-center">
             <h2 className="text-3xl font-bold mb-8">Our Mission</h2>
             <p className="text-gray-700 mb-4 pl-8 pr-8">
-              At Akhanda Seva Samsthan, our mission is to catalyze positive transformation in underserved communities, fostering a future where every individual has the opportunity to thrive. With a commitment to holistic development, we empower through education, uplift through sustainable livelihoods, and advocate for comprehensive healthcare. Through collaborative efforts and unwavering compassion, we envision a world where every person can unfold their potential and contribute to the collective well-being of society. Join us on this journey of compassion, where each action brings us closer to a brighter, more equitable tomorrow.
+              At Akhanda Seva Samsthan, our mission is to catalyze positive
+              transformation in underserved communities, fostering a future
+              where every individual has the opportunity to thrive. With a
+              commitment to holistic development, we empower through education,
+              uplift through sustainable livelihoods, and advocate for
+              comprehensive healthcare. Through collaborative efforts and
+              unwavering compassion, we envision a world where every person can
+              unfold their potential and contribute to the collective well-being
+              of society. Join us on this journey of compassion, where each
+              action brings us closer to a brighter, more equitable tomorrow.
             </p>
+          </div>
+        </section>
+        <section>
+          <div className="lg:flex">
+            <div className="container mx-auto text-center md:text-left">
+              <h2 className="text-3xl font-bold mb-8 md:pl-8">Our Story</h2>
+              <p className="text-gray-700 mb-4 pl-8 pr-8">
+                Lorem ipsum dolor sit amet, consectetur adipisci elit, sed
+                eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrum exercitationem ullam corporis
+                suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.
+                Quis aute iure reprehenderit in voluptate velit esse cillum
+                dolore eu fugiat nulla pariatur. Excepteur sint obcaecat
+                cupiditat non proident, sunt in culpa qui officia deserunt
+                mollit anim id est laborum.
+                <br />
+                Consectetur adipisci elit, sed
+                eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrum exercitationem ullam corporis
+                suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.
+                Quis aute iure reprehenderit in voluptate velit esse cillum
+                dolore eu fugiat nulla pariatur. Excepteur sint obcaecat
+                cupiditat non proident, sunt in culpa qui officia deserunt
+                mollit anim id est laborum.
+                <br />
+                Nisi ut aliquid ex ea commodi consequatur.
+                Quis aute iure reprehenderit in voluptate velit esse cillum
+                dolore eu fugiat nulla pariatur. Excepteur sint obcaecat
+                cupiditat non proident, sunt in culpa qui officia deserunt
+                mollit anim id est laborum.
+              </p>
+            </div>
+            <div>
+              <Image
+                src={heroImg}
+                width="616"
+                height="617"
+                className={"object-cover"}
+                alt="Our Story"
+                loading="eager"
+                placeholder="blur"
+              />
+            </div>
           </div>
         </section>
 
@@ -74,7 +128,6 @@ const AboutUs = () => {
                 <h3 className="text-xl font-bold mb-2">Ganesh Nadipalli</h3>
                 <p className="text-gray-700">General Secretary</p>
               </div>
-              
 
               {/* Team Member 5 */}
               <div className="bg-white p-6 rounded-lg shadow-md">
@@ -105,7 +158,9 @@ const AboutUs = () => {
                   src="https://media.licdn.com/dms/image/D5603AQGNoyzJzAf3bQ/profile-displayphoto-shrink_400_400/0/1699251044548?e=1714608000&v=beta&t=Jw54AnGjy_g1CWCEvNieWf5n1ZsWVQ-Eqb64vt30huY"
                   alt="Team Member 7"
                 />
-                <h3 className="text-xl font-bold mb-2">Varahala babu killadi</h3>
+                <h3 className="text-xl font-bold mb-2">
+                  Varahala babu killadi
+                </h3>
                 <p className="text-gray-700">E.C. Member</p>
               </div>
 
