@@ -12,7 +12,23 @@ import Cta from "../components/cta";
 import Faq from "../components/faq";
 import PopupWidget from "../components/popupWidget";
 
+import React, { useState } from 'react';
+import Modal from '../components/modal';
+import FeedbackForm from '../components/feedbackForm';
+import FeedbackWidgetButton from '../components/feedBackWidgetButton';
+
 const Home = () => {
+
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const openModal = () => {
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
+
   return (
     <>
       <Head>
@@ -55,6 +71,12 @@ const Home = () => {
       <Cta />
       <Footer />
       <PopupWidget />
+      <div>
+      <FeedbackWidgetButton onClick={openModal} />
+      <Modal isOpen={isModalOpen} onClose={closeModal}>
+        <FeedbackForm />
+      </Modal>
+    </div>
     </>
   );
 };
