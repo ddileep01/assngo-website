@@ -4,7 +4,7 @@ const FeedbackWidgetButton = ({ onClick }) => {
   return (
     <div
       onClick={onClick}
-      className="fixed bottom-4 left-4 bg-white rounded-lg shadow-lg p-4 border border-gray-200 cursor-pointer transition duration-300 hover:shadow-xl"
+      className="fixed backdrop-blur bottom-4 left-4 bg-white/50 rounded-lg shadow-lg p-4 border border-gray-200 cursor-pointer transition duration-300 hover:shadow-xl"
     >
       <div className="flex items-center justify-center">
         <svg
