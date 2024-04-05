@@ -40,7 +40,7 @@ const SitemapPage = () => {
               <Link href="/blogs">Blogs and News</Link>
             </li>
             <li>
-              <Link href="/validate">certificate validation</Link>
+              <Link href="/validate">Validate Certificate</Link>
             </li>
             {/* Add more pages as needed */}
           </ul>
