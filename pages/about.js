@@ -21,18 +21,39 @@ const AboutUs = () => {
         {/* Mission Section */}
         <section className="py-16">
           <div className="container mx-auto text-center">
-            <h2 className="text-3xl font-bold mb-8">Our Mission</h2>
+            <h2 className="text-3xl font-bold mb-8">Our Mission and Vision</h2>
             <p className="text-gray-700 mb-4 pl-8 pr-8">
-              At Akhanda Seva Samsthan, our mission is to catalyze positive
-              transformation in underserved communities, fostering a future
-              where every individual has the opportunity to thrive. With a
-              commitment to holistic development, we empower through education,
-              uplift through sustainable livelihoods, and advocate for
-              comprehensive healthcare. Through collaborative efforts and
-              unwavering compassion, we envision a world where every person can
-              unfold their potential and contribute to the collective well-being
-              of society. Join us on this journey of compassion, where each
-              action brings us closer to a brighter, more equitable tomorrow.
+              At the heart of Akhanda Seva Samsthan lies a steadfast mission to
+              uplift and empower every individual, irrespective of their
+              socio-economic background. With a vision of a society where every
+              person has access to education, healthcare, and growth
+              opportunities, the NGO strives tirelessly to bridge the gap
+              between privilege and deprivation through various programs.
+              <br />
+              <br />
+              <ul className="list-disc text-left ml-8 lg:ml-32">
+                <li>Conducting health camps</li>
+                <li>
+                  Held blood and food donations, and created awareness campaigns
+                  in remote areas.
+                </li>
+                <li>
+                  Distributing educational tools, materials, books, school
+                  uniforms, and scholarships to needy students.
+                </li>
+                <li>
+                  Providing necessary farming inputs to farmers and promoting
+                  organic farming.
+                </li>
+                <li>
+                  Organizing community-driven plantation programs and engaging
+                  in the conservation of wildlife.
+                </li>
+                <li>
+                  Holding welfare and development programs at remote locations
+                  to create awareness among marginalized sections of society.
+                </li>
+              </ul>
             </p>
           </div>
         </section>
@@ -40,30 +61,45 @@ const AboutUs = () => {
           <div className="lg:flex">
             <div className="container mx-auto text-center md:text-left">
               <h2 className="text-3xl font-bold mb-8 md:pl-8">Our Story</h2>
+              <h2 className="text-xl font-bold mb-8 md:pl-8">
+                History and the Founding
+              </h2>
               <p className="text-gray-700 mb-4 pl-8 pr-8">
-                Lorem ipsum dolor sit amet, consectetur adipisci elit, sed
-                eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrum exercitationem ullam corporis
-                suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.
-                Quis aute iure reprehenderit in voluptate velit esse cillum
-                dolore eu fugiat nulla pariatur. Excepteur sint obcaecat
-                cupiditat non proident, sunt in culpa qui officia deserunt
-                mollit anim id est laborum.
-                <br />
-                Consectetur adipisci elit, sed
-                eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrum exercitationem ullam corporis
-                suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.
-                Quis aute iure reprehenderit in voluptate velit esse cillum
-                dolore eu fugiat nulla pariatur. Excepteur sint obcaecat
-                cupiditat non proident, sunt in culpa qui officia deserunt
-                mollit anim id est laborum.
-                <br />
-                Nisi ut aliquid ex ea commodi consequatur.
-                Quis aute iure reprehenderit in voluptate velit esse cillum
-                dolore eu fugiat nulla pariatur. Excepteur sint obcaecat
-                cupiditat non proident, sunt in culpa qui officia deserunt
-                mollit anim id est laborum.
+                Origins of Akhanda Seva Samsthan The journey of Akhanda Seva
+                Samsthan began with a simple yet profound idea - the belief that
+                "anyone who serves the country is a true leader.”. Rayapureddy
+                Purna Dayakar, president, along with his passionate friends
+                Ganesh Nadipalli, Gowri Naidu Kolusu, Avinash Tammireddy, Kedhar
+                Eswar, and Raghu Aratlakota, have shaped the organization, which
+                is instrumental in taking its first step towards creating an
+                inclusive society, driven by compassion and a sense of duty
+                towards the less fortunate. Having its roots in Rajiv Gandhi
+                University of Knowledge Technologies, the organization consists
+                of young, dynamic, passionate, and energetic individuals who
+                strive for excellence in their work. As members of the RGUKT,
+                they are also responsive to the needs of RGUKTIANS, which gives
+                the organization a student-friendly, student-driven, and
+                student-motivated characteristic.
+              </p>
+              <h2 className="text-xl font-bold mb-8 md:pl-8">
+                Founders and their inspirations
+              </h2>
+              <p className="text-gray-700 mb-4 pl-8 pr-8">
+                The founders of Akhanda Seva Samsthan drew inspiration from the
+                teachings of prominent leaders and visionaries who advocated for
+                social justice and equality. As the President of Akhanda Seva
+                Samsthan, Rayapureddy Purna Dayakar is an enthusiastic and
+                passionate individual who has always been motivated by a desire
+                to make a positive impact on the lives of others. This motivated
+                him to seek out like-minded friends, who ultimately helped form
+                Akhanda Seva Samsthan. It is their actions that speak louder
+                than their words. With their commitment and endurance, the
+                organization has conducted more than 50+ community-driven
+                programs. In this process, they followed inclusivity,
+                transparency, and integrity as their guiding values. Their
+                unwavering commitment to the cause laid the foundation for a
+                movement that would touch countless lives and leave an indelible
+                mark on society.
               </p>
             </div>
             <div>
@@ -71,7 +107,7 @@ const AboutUs = () => {
                 src={heroImg}
                 width="616"
                 height="617"
-                className={"object-cover"}
+                className={"object-cover lg:mt-16"}
                 alt="Our Story"
                 loading="eager"
                 placeholder="blur"
