@@ -6,49 +6,35 @@ import Footer from "../components/footer";
 const blogsList = [
   {
     id: 1,
-    title: "Empowering Women: Breaking Barriers, Building Futures",
-    image: "https://pbs.twimg.com/media/GElRa86XIAAG8iz.jpg",
+    title: "Plantation Program Blog",
+    image: "/img/gallery/gi10.jpg",
     description: `
-    At Akhanda Seva Samsthan, we believe in the power of women to transform communities and drive positive change. In this article, we'll explore how our initiatives are empowering women from marginalized backgrounds through education, skills training, and economic opportunities. Join us as we celebrate the resilience and strength of women and work towards a more gender-equal world.
+    Feel how difficult it would be to breathe if you carried a cylinder of oxygen on your back. This could be what we face shortly with rising global warming resulting in climate change which would impact you and me.
+    So, to prevent that scenario, we are taking action by conducting community-driven plantations. We, at Akhanda Seva Sansthan, have planted 80 plants with the active participation of 20+ volunteers across Budumuru Srikakulam and Rolugunta Vishakapatnam Dist.
+    Join us as a volunteer, experience community vibes, and become a true leader by contributing to tackling climate change.
             `,
   },
   {
     id: 2,
-    title:
-      "Planting Seeds of Change: Environmental Conservation at Akhanda Seva Samsthan",
-    image: "https://www.barry-callebaut.com/sites/default/files/styles/paragraph_page_intro_responsive/public/2020-06/Seeds%20for%20Change%20-%20Barry%20Callebaut%20%281%29.jpg?itok=Tjz9cDjF",
+    title: "Food Donation Program Blog",
+    image: "/img/gallery/gi3.jpg",
     description: `
-    Our planet is facing unprecedented environmental challenges, from climate change to biodiversity loss. In this article, we'll take a closer look at how Akhanda Seva Samsthan is taking action to protect our environment through tree planting, waste management, and sustainable agriculture initiatives. Discover how you can join us in our mission to preserve and protect the natural world for future generations.`,
+    If God appears to me and asks me for a wish to fulfill. Then, I would wish for everyone in the world to be blessed with 3 meals every day, and that too be a balanced diet. You may be wondering why I made that wish. According to Global Hunger Index 2021, India’s score of 27.5 is considered to be serious. It is due to a timely and balanced diet that provides a healthy physique. And it is believed that “health is wealth.”
+    So, to improve India’s ranking in the global hunger index and to achieve the goal of SDG-2, which is zero hunger, we at Akhanda Seva Samsthan are conducting food distribution programs for the needy. We have distributed to nearly 50+ individuals across cities in Hyderabad, Srikakulam, Vishakapatnam, Amalapuram, and Machilipatnam.
+    Collaborate with us in our food donation program to be a true leader and experience the joy of sharing and caring.
+    `,
   },
   {
     id: 3,
-    title: "Education for All: Unlocking Opportunities, Transforming Lives",
-    image: "https://miro.medium.com/v2/resize:fit:1400/1*NEMRbxUdrF30Nlfsdkuhaw.jpeg",
+    title: "Blood Donation Program Blog",
+    image: "https://i.ibb.co/1mkq8Mp/8c36296f-6da3-4eb3-aa87-e1aef12143c3.jpg",
     description: `
-    Education is a fundamental human right and a powerful tool for social and economic empowerment. At Akhanda Seva Samsthan, we're committed to ensuring that every child has access to quality education, regardless of their background or circumstances. In this article, we'll share how our educational programs are making a difference in the lives of children and communities, paving the way for a brighter future for all.`,
+    Blood is considered to be the lifeline of our bodies. Everyone believes that it would be available easily. However, this is not the case. The blood can be stored only for 3-4 days, which will also be under cold conditions. In addition, some limitations make blood arrangements difficult.
+    We, at Akhanda Seva Sansthan, have donated blood for 20 Thalassemia patients at Thalassemia Sickle Cell Society in Rajendar Nagar, Hyderabad on behalf of EX CBI officer JD Lakshmi Narayana Garu. Also, we collaborated with the Youth for Seva organization and blood donation campaigns.
+    Join us, to become a true leader by donating blood or being a part of blood donation campaigns. Taking part in these campaigns requires truly a big heart. We believe you are one among them.
+`,
   },
-  {
-    id: 4,
-    title: "Healthcare Access: Bridging Gaps, Saving Lives",
-    image: "https://media.licdn.com/dms/image/C4E12AQHBNVx13G32cQ/article-cover_image-shrink_720_1280/0/1574367762933?e=2147483647&v=beta&t=pqENIc-BB1zP-9BKv_AC5NOX-eGTYRX32UYfxQ1ROGQ",
-    description: `
-    Access to healthcare is essential for achieving overall well-being and prosperity. Unfortunately, many communities around the world still lack access to basic healthcare services. In this article, we'll highlight how Akhanda Seva Samsthan is working to bridge this gap through mobile clinics, health awareness campaigns, and community health initiatives. Join us as we strive to ensure that everyone has the right to quality healthcare, regardless of their circumstances.`,
-  },
-  {
-    id: 5,
-    title: "Youth Empowerment: Nurturing Potential, Creating Leaders",
-    image: "https://imageio.forbes.com/specials-images/imageserve/63a9aee2a479919895cc7325/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
-    description: `
-    Young people are the future leaders and changemakers of our world. At Akhanda Seva Samsthan, we're dedicated to empowering youth with the skills, resources, and opportunities they need to thrive. In this article, we'll showcase our youth empowerment programs, which include leadership training, mentorship opportunities, and entrepreneurship initiatives. Join us in supporting the next generation as they become catalysts for positive change in their communities and beyond.`,
-  },
-  {
-    id: 6,
-    title: "Community Resilience: Strengthening Bonds, Building Futures",
-    image: "https://u4d2z7k9.rocketcdn.me/wp-content/uploads/2023/12/GardenEstateEvent-92-1-scaled.jpg",
-    description: `
-    In times of adversity, strong communities are a source of support, resilience, and hope. At Akhanda Seva Samsthan, we're committed to building resilient communities that can withstand and recover from challenges. In this article, we'll explore how our community development initiatives are fostering social cohesion, empowering individuals, and building resilience from the ground up. Join us as we work together to create a future where every community can thrive, no matter what obstacles they may face.`,
-  },
-]
+];
 const Blogs = () => {
   return (
     <>
@@ -60,7 +46,7 @@ const Blogs = () => {
               key={blog.id}
               className="max-w-sm rounded overflow-hidden shadow-lg"
             >
-              <img className="w-full h-48" src={blog.image} alt={blog.title} />
+              <img className="w-full h-56" src={blog.image} alt={blog.title} />
               <div className="px-6 py-4">
                 <div className="font-bold text-xl mb-2">{blog.title}</div>
                 <p className="text-gray-700 text-base">
