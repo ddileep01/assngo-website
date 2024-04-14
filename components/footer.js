@@ -129,18 +129,46 @@ export default function Footer() {
         </div>
 
         <div className="my-10 text-sm text-center text-gray-600 dark:text-gray-400">
-          Copyright © {new Date().getFullYear()}. Made with ♥ by{" "}
-          <a
-            href="https://dileep18052001.wixsite.com/projects-dileep"
-            target="_blank"
-            rel="noopener"
-          >
-            Projects X Dileep
-          </a>{" "}
-          {/* Illustrations from{" "}
-          <a href="https://www.glazestock.com/" target="_blank" rel="noopener ">
-            Glazestock
-          </a> */}
+          <p className="md:flex items-center justify-center">
+            Copyright © {new Date().getFullYear()}. Made with ♥ by{" "}
+            <div className="flex justify-center">
+            <a
+              href="https://dileep18052001.wixsite.com/projects-dileep"
+              target="_blank"
+              rel="noopener"
+              className="mx-1"
+            >
+              <p className="text-green-900 hover:text-green-950 hover:font-semibold">Projects X Dileep</p>
+              {/* <Image
+                src="/img/project-dileep-logo.png"
+                alt="Projects X Dileep"
+                width="128"
+                height="128"
+                className="w-24 inline-block"
+              /> */}
+            </a>{" "}
+            <span className="mx-1">|</span>
+            <a
+              href="https://haribabuportfolio.vercel.app/"
+              target="_blank"
+              rel="noopener"
+              className="mx-1"
+            >
+              <p className="text-green-900 hover:text-green-950 hover:font-semibold">H Hari Babu</p>
+              {/* <Image
+                src="/img/hari-logo.png"
+                alt="Hari portfolio"
+                width="128"
+                height="128"
+                className="w-6 inline-block"
+              /> */}
+            </a>{" "}
+            </div>
+            {/* Illustrations from{" "}
+        <a href="https://www.glazestock.com/" target="_blank" rel="noopener">
+          Glazestock
+        </a> */}
+          </p>
         </div>
       </Container>
       {/* Do not remove this */}
