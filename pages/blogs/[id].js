@@ -7,7 +7,7 @@ import Link from "next/link";
 const blogsList = [
   {
     id: 1,
-    title: "Plantation Program Blog",
+    title: "Plantation Program",
     image: "/img/gallery/gi10.jpg",
     description: `
     Feel how difficult it would be to breathe if you carried a cylinder of oxygen on your back. This could be what we face shortly with rising global warming resulting in climate change which would impact you and me.
@@ -17,7 +17,7 @@ const blogsList = [
   },
   {
     id: 2,
-    title: "Food Donation Program Blog",
+    title: "Food Donation Program",
     image: "/img/gallery/gi3.jpg",
     description: `
     If God appears to me and asks me for a wish to fulfill. Then, I would wish for everyone in the world to be blessed with 3 meals every day, and that too be a balanced diet. You may be wondering why I made that wish. According to Global Hunger Index 2021, India’s score of 27.5 is considered to be serious. It is due to a timely and balanced diet that provides a healthy physique. And it is believed that “health is wealth.”
@@ -27,7 +27,7 @@ const blogsList = [
   },
   {
     id: 3,
-    title: "Blood Donation Program Blog",
+    title: "Blood Donation Program",
     image: "https://i.ibb.co/1mkq8Mp/8c36296f-6da3-4eb3-aa87-e1aef12143c3.jpg",
     description: `
     Blood is considered to be the lifeline of our bodies. Everyone believes that it would be available easily. However, this is not the case. The blood can be stored only for 3-4 days, which will also be under cold conditions. In addition, some limitations make blood arrangements difficult.
@@ -50,7 +50,9 @@ const Blog = () => {
       <Navbar />
       <div className="container mx-auto px-4 py-8">
         <div className="max-w-screen-md mx-auto">
-          <img className="w-full" src={blog.image} alt={blog.title} />
+          <div className="flex justify-center">
+            <img className="w-full md:w-4/5 md:h-96" src={blog.image} alt={blog.title} />
+          </div>
           <div className="px-6 py-4">
             <div className="font-bold text-xl mb-2">{blog.title}</div>
             <p className="text-gray-700 mb-4 text-base">{blog.description}</p>
