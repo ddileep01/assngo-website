@@ -10,6 +10,7 @@ export default function Footer() {
     { label: "Sitemap", link: "/sitemap" },
     { label: "Blogs and News", link: "/blogs" },
     { label: "Validate Certificate", link: "/validate" },
+    { label: "Admin Login", link: "/adminlogin" },
   ];
   const legal = [
     { label: "Terms", link: "/terms" },
