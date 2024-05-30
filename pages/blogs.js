@@ -12,7 +12,7 @@ const blogsList = [
     description: `
     Imagine having to carry an oxygen cylinder on your back just to breathe. This uncomfortable scenario could become a reality if we do not take immediate action to combat global warming and climate change. The threat is not just a distant concern but a pressing issue that will impact each one of us. At Akhanda Seva Samsthan, we recognize the urgency of the situation and are committed to making a difference through our community-driven plantation program.
 
-    The Urgency of Addressing Climate Change
+    **The Urgency of Addressing Climate Change**
     Climate change is no longer a future threat—it is happening now. Rising temperatures, unpredictable weather patterns, and an increase in natural disasters are just some of the visible effects. One of the most critical consequences is the degradation of air quality. Trees play a pivotal role in maintaining the balance of our ecosystem by absorbing carbon dioxide and releasing oxygen. However, deforestation and urbanization have significantly reduced tree cover, exacerbating the problem of air pollution and contributing to the greenhouse effect.
 
     Our Initiative: Planting for a Greener Tomorrow
