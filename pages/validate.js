@@ -22,7 +22,7 @@ const Validate = () => {
 
     try {
       const response = await fetch(
-        "https://good-jade-dhole-robe.cyclic.app/certificates"
+        "https://assngo-online-certificate-editor-validator-server.vercel.app/certificates"
       );
       const data = await response.json();
       const certificate = data.find((cert) => cert.certId === id);
