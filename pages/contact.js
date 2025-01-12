@@ -180,7 +180,7 @@ const ContactPage = () => {
             <p className="px-2">
               ✉️ Email id: akhandasevasamsthan.ass@gmail.com
             </p>
-            <p>📞 Cell: +91 97046 01395</p>
+            <p>📞 Cell: +91 97046 01395, +91 81436 60501</p>
           </div>
         </section>
       </div>
