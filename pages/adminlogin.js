@@ -10,7 +10,7 @@ const AdminLogin = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (passcode === 'Ass123$') {
+    if (passcode === 'Ass@123$') {
       window.location.href = 'https://ass-online-certificate-editor.vercel.app/';
     } else {
       setError('Incorrect passcode. Please try again.');
